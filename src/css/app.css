@@ -1,0 +1,263 @@
+.module_close {
+    top: 0;
+    right: 0;
+    color: grey;
+    margin: 0.5rem;
+    position: absolute;
+  }
+  .logo {
+    display: block;
+    width: 25%;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .socialSignup {
+    color: #fe2753;
+    font-weight: bolder;
+  }
+  .uploadImage {
+    text-align: center;
+  }
+  .imagePreview {
+    width: 10rem;
+    height: 10rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    border-radius: 50%;
+    background-image: url(../img/cloud-upload.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 0.5rem solid rgba(128, 128, 128, 0.308);
+  }
+  .imagePreview:hover {
+    background-color: rgba(242, 73, 82, 0.589);
+  }
+  
+  .image {
+    width: 10rem;
+    height: 10rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    border-radius: 50%;
+  }
+  
+  .errorText {
+    height: 2rem;
+    color: white;
+    width: 100%;
+    margin-bottom: 8px;
+    margin-left: 8px;
+  }
+  /*===============================================
+      Form INPUUTS
+      =============================================
+  */
+  
+  input:not([type]),
+  input[type="text"]:not(.browser-default),
+  input[type="password"]:not(.browser-default),
+  input[type="email"]:not(.browser-default) {
+    background-color: transparent;
+    border: 1px solid rgba(128, 128, 128, 0.384);
+    border-radius: 2rem;
+    outline: none;
+    height: 3rem;
+    width: 100%;
+    font-size: 12px;
+    padding-left: 0.5rem;
+    background-color: white;
+    margin-bottom: 0;
+  }
+  input::placeholder {
+    color: grey;
+    font-weight: bold;
+    margin-left: 24px;
+  }
+  .selectFile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+  }
+  .selectFile + label {
+    font-size: 1.25em;
+    font-weight: 700;
+    color: rgb(116, 116, 116);
+    padding: 0.5rem;
+    background-color: rgba(0, 0, 0, 0);
+    display: inline-block;
+    cursor: pointer; /* "hand" cursor */
+  }
+  .selectFile:focus + label,
+  .selectFile + label:hover {
+    color: lightcoral;
+  }
+  /*
+  ===========================================
+  Styling to handle VALID and INVALID form 
+  inputs.
+  ===========================================
+  */
+  .input:required:invalid,
+  input:focus:invalid {
+    /* insert your own styles for invalid form input */
+    border: 1rem solid red;
+  }
+  
+  /*
+  ===========================================
+  Styling for smaller screens
+  ===========================================
+  */
+  @media only screen and (max-width: 1024px) {
+    .form {
+      width: 40%;
+      height: auto;
+      background-color: white;
+      padding: 1.5rem;
+      margin-top: 10%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 20px;
+      border-radius: 0.2rem;
+    }
+    .logo {
+      display: block;
+      width: 20%;
+      margin-bottom: 2rem;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  
+  /*
+  ===========================================
+  Styling for step one 
+  ===========================================
+  */
+  .carousel {
+    width: 100%;
+    max-width: 50.5rem;
+  }
+  .poster {
+    width: 15rem;
+    height: 20rem;
+    margin: 0 auto;
+    border: 0.3rem;
+    border-radius: 1rem;
+  }
+  .poster > img {
+    height: 100%;
+    width: 100%;
+    border-radius: 0.5rem;
+  }
+  
+  .icon {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10%;
+  }
+  .icon > img {
+    width: 1rem !important;
+    height: 1rem !important;
+  }
+  .posterDiv {
+    position: relative;
+    outline: none;
+  
+    /* .posterDiv:checked + .selectedBlend {
+      display: block;
+    } */
+  }
+  .selectedBlend {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border: 0.3rem;
+    /* border-radius: 1rem; */
+  }
+  
+  .selectedBlend::before {
+    content: "";
+    display: block;
+    height: 20rem;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.75);
+    /* border-radius: 1rem; */
+    border: 0.5rem solid white;
+  }
+  
+  hiddenInputLabel {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+  }
+  
+  .hiddenInput {
+    position: absolute;
+    transform: translate(-1000vw);
+    width: 0;
+  }
+  
+  .arrow {
+    box-sizing: border-box;
+    fill: #fff;
+    transition: width 0.9s linear, height 0.9s linear, opacity 0.9s linear;
+    border: 2px solid #fff;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    opacity: 0.4;
+    padding: 10px;
+  }
+  
+  :global(.slick-prev::before) {
+    content: none;
+  }
+  
+  :global(.slick-next::before) {
+    content: none;
+  }
+  
+  .progressWrapper {
+    display: flex;
+    justify-content: center;
+    margin: 3rem 0;
+  }
+  
+  .continueButton {
+    margin: 0 auto;
+    max-width: 20vw;
+    margin-top: 1.5rem;
+  }
+  
+  .fieldLabel{
+    color: white !important;
+    font-size: 1.2rem !important;
+  }
+  
+  .fieldInputBox{
+    background-color: white !important;
+    border-radius: 16px !important;
+    height: 2.5rem !important;
+  }
+  
+  .stepTwoFormWidth{
+    width: 45%;
+  }
+  
+  

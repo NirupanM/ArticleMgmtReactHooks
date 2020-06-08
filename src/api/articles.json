@@ -1,0 +1,57 @@
+[
+    {
+        "id":1,
+        "title": "US President on Coronavirus",
+        "image_or_video":"https://media1.s-nbcnews.com/j/newscms/2020_20/3350476/200514-donald-trump-ac-607p_50ee32b46e5d347977f2865ecb90b71f.fit-760w.jpg",
+        "publish_date":"17/1/2020",
+        "article_text":"Donald Trump Urges Quicker US Reopening From Coronavirus Lockdown",
+        "likes_count": 201
+        
+    },
+    {
+        "id":2,
+        "title": "Coronavirus cases in India",
+        "image_or_video":"https://resize.indiatvnews.com/en/resize/newbucket/1200_-/2020/05/india-1588519494.jpg",
+        "publish_date":"17/2/2020",
+        "article_text":"COVID-19: For Second Consecutive Day, India's Cases See Record Spike",
+        "likes_count": 14
+        
+    },
+    {
+        "id":3,
+        "title": "WHO puppet of China",
+        "image_or_video":"https://pbs.twimg.com/media/EQkuh0kUYAASYn6.jpg",
+        "publish_date":"17/3/2020",
+        "article_text":" US President Donald Trump once again on Monday attacked the WHO, saying the UN health body was a 'puppet' of China.",
+        "likes_count": 154
+        
+    },
+    {
+        "id":4,
+        "title": "Twitter CEO advocates WFH",
+        "image_or_video":"https://ichef.bbci.co.uk/news/660/cpsprodpb/3AFC/production/_111100151_gettyimages-1060578040.jpg",
+        "publish_date":"17/4/2020",
+        "article_text":"ertyuicvbhjnk guyguguyg dsvvfvv efjijoijoijwfwfwfe",
+        "likes_count": 482
+        
+    },
+    {
+        "id":5,
+        "title": "After Twitter, Facebook and Shopify announce permanent WFH",
+        "image_or_video":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQEFiE_BX0zNzcI_QhW_BTOv3hxYMFTWlo_r9jdxWA3VC1kXNCS&usqp=CAU",
+        "publish_date":"17/1/2020",
+        "article_text":"After Twitter, Facebook and Shopify announce permanent work from home after coronavirus crisis. By: FE Online",
+        "likes_count": 201
+        
+    },
+    {
+        "id":6,
+        "title": "PM Modi condoles loss of lives in Pakistan plane crash",
+        "image_or_video":"https://images.news18.com/ibnlive/uploads/2019/08/PM-MODI.jpg?impolicy=website&width=536&height=356",
+        "publish_date":"17/2/2020",
+        "article_text":"‘Deeply saddened’: PM Modi expresses grief over Pakistan plane crash",
+        "likes_count": 14
+        
+    }
+]
+

@@ -1,0 +1,13 @@
+/* Hover effects */
+.card {
+    transition: -webkit-transform 0.3s ease;
+    width: 300px;
+  }
+  .card:hover {
+    transform: scale(1.01, 1.01);
+  }
+
+
+  .card-img-top{
+    height: 250px;
+  }
